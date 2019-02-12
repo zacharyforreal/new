@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="robots" content="noindex,nofollow" />
+        <meta name="description" content="ITC134 | Winter 2019 | A5: Github Pages" />
+        <title>Artificial Intelligence</title>
+        <style>
+            body{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blackbackground.jpg");
+                background-color: black;
+                margin: auto;
+                width: 1020px;;
+                color: white;
+                font-family: sans-serif;
+            }
+
+            h1{
+                float:left;
+            }
+    
+            .navpack{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("blackbackground1.png");
+                width: 1020px;
+                top: 0;
+                margin: 0px,0px, 40px, 0px;
+                padding-bottom: 0px;
+                position: fixed;
+            }
+
+            #navimg{
+                height: 5rem;
+                padding: 0px;
+                float: left; 
+            }
+
+            nav ul {
+                position: fixed;
+                top: 0;
+                width: 1020px;
+                list-style-type: none;
+                margin-top: 30px;
+                padding: 0;
+                overflow: hidden; 
+            }
+
+            nav li a{
+                border-right: 1px solid rgb(163, 163, 163);
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                float: right;
+            }
+
+            nav li a:hover {
+                background-color: #555;
+                color: white;
+            }
+
+            nav li a:last-child {
+                border-right: none;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+
+            .hero-image {
+                margin-top: 130px;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("artificial_intelligence1.jpg");
+                height: 300px;
+                width: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .hero-text {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+
+            button{
+                background-color: white;
+            }
+
+            #contentbackground{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("blackwood.jpg");
+                padding: 30px;
+            }
+
+            #aidefinition{
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            #aidefinition ul {
+                width: 100%;
+                list-style-type: none;
+                padding: 30px;
+                overflow: hidden; 
+                margin-left: 190px;
+            }
+
+            #aidefinition ul li {
+                border-right: 1px solid rgb(163, 163, 163);
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                float: left; 
+            }
+
+            #aidefinition ul li:last-child {
+                border-right: none;
+            }
+
+            #cyberchip{
+                height: 2%;
+                width: 2%;
+            }   
+
+            #pagebreak{
+                display: block;
+                text-align: center;
+            }
+
+            .stockimages{
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+            }
+
+            p{
+                color: rgb(196, 196, 196);
+            }
+
+            #aidevelopers{
+                margin: 100px 0px  30px 0px;
+                text-align: center
+            }
+        
+            #devUnBias{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("blackwood.jpg");
+                float: left;
+            }
+
+            #devUnBias h5{
+                text-align: center;
+            }
+
+            #devUnBias ul {
+                margin-right: 30px;
+                list-style-type: none;
+            }
+
+            #devInBias{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("blackwood.jpg");
+                float: right;
+            }
+
+            #devInBias h5{
+                text-align: center;
+            }
+
+            #devInBias ul {
+                margin-right: 30px;
+                list-style-type: none;
+            }
+
+            #icon{
+                margin-left: 40%;
+            }
+        
+            section{
+                width: 80%;
+                margin-left: 10%;
+            }
+
+            .separators{
+                width: 300px;
+                float: left;
+                margin: 30px;
+                text-align: center;
+            }
+
+            #leftseparator{
+                display: block;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navpack">  
+            <nav>   
+                <img id ="navimg" src="aiphoto1.jpg">
+                <h1>
+                    Artificial Intelligence
+                </h1> 
+                <ul>
+                    <li>
+                        <a href="#aidefinition">
+                            Definition
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aihistory">
+                            History
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aibias">
+                            Bias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aidevelopers">
+                            Developer Solutions
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>
+                    Is Your AI Racist?
+                </h1>
+                <p>
+                    Overcoming Bias In Artificial Intelligence
+                </p>
+            </div>
+        </div>
+        <div id="contentbackground">
+            <h3 id="pagebreak">
+                Introduction to Artificial Intelligence
+            </h3>
+            <div id ="aidefinition">
+                <h5>
+                    So What Is AI?
+                </h5>
+                <p>
+                    Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. This is done by creating the ability for a  computer program or a machine to think and learn on their own without being encoded with commands.. Some of the activities computers with artificial intelligence are designed for include:
+                </p> 
+                <ul>
+                    <li>
+                        Speech recognition
+                    </li> 
+                    <li>
+                        Learning Planning
+                    </li> 
+                    <li>
+                        Problem solving
+                    </li>
+                </ul>
+            </div>
+            <img id="icon" height="200px" src="https://www.iconspng.com/uploads/artificial-intelligence/artificial-intelligence.png"  alt="Artificial Intelligence PNG icon" />
+            <h5 id ="aihistory">
+                History
+            </h5>
+            <p>
+                The term artificial intelligence was coined in 1956, but AI has become more popular today thanks to increased data volumes, advanced algorithms, and improvements in computing power and storage.
+                <br> 
+                Early AI research in the 1950s explored topics like problem solving and symbolic methods. In the 1960s, the US Department of Defense took interest in this type of work and began training computers to mimic basic human reasoning. For example, the Defense Advanced Research Projects Agency (DARPA) completed street mapping projects in the 1970s. And DARPA produced intelligent personal assistants in 2003, long before Siri, Alexa or Cortana were household names.
+                <br>
+                This early work paved the way for the automation and formal reasoning that we see in computers today, including decision support systems and smart search systems that can be designed to complement and augment human abilities. 
+                <br>
+                The research about Artificial Intelligence was started long time ago even before 1950’s. However, the term AI is introduced in 1950’s. The following list of events are presented to show how  the evolution of AI is happened.
+            </p>
+            <h5>
+                How Artificial Intelligence is being used
+            </h5>
+            <p>
+                Now days every industry has a high demand for AI capabilities. AI is helping human being in almost every part of our lives. To mention some of uses includes:
+            </p>
+            <section>
+                <div Class="separators">
+                    <img class="stockimages" src="healthcare.jpeg"  alt="healthcare image" />
+                    <h4>
+                        Healthcare
+                    </h4>
+                    <p>
+                        AI applications can provide personalized medicine and X-ray readings. Personal health care assistants can act as life coaches, reminding you to take your pills, exercise or eat healthier.
+                    </p>
+                </div>
+                <div Class="separators">
+                    <img class="stockimages" src="retail.jpeg"  alt="retail image" />
+                    <h4>
+                        Retail
+                    </h4>
+                    <p>
+                        AI provides virtual shopping capabilities that offer personalized recommendations and discuss purchase options with the consumer. Stock management and site layout technologies will also be improved with AI.
+                    </p>
+                </div>
+                <div Class="separators">
+                    <img class="stockimages" src="manufacturing.jpeg"  alt="manufacturing image" />
+                    <h4>
+                        Manufacturing
+                    </h4>
+                    <p>
+                        AI can analyze factory IoT data as it streams from connected equipment to forecast expected load and demand using recurrent networks, a specific type of deep learning network used with sequence data.
+                    </p>
+                </div>
+                <div Class="separators">
+                    <img class="stockimages" src="bank.jpeg"  alt="bank image" />
+                    <h4>
+                        Banking
+                    </h4>
+                    <p>
+                        Artificial Intelligence enhances the speed, precision and effectiveness of human efforts. In financial institutions, AI techniques can be used to identify which transactions are likely to be fraudulent, adopt fast and accurate credit scoring, as well as automate manually intense data management tasks.
+                    </p>
+                </div>
+                <div Class="separators">
+                    <img class="stockimages" src="transport.jpg" alt="transport image" />
+                    <h4>
+                        Transport
+                    </h4>
+                    <p>
+                        Self-driving train, metro and cars are now available.
+                    </p>
+                </div>
+                <div Class="separators" id="clearseparator">
+                    <img class="stockimages" src="tasks.jpg" alt="tasks image" />
+                        <h4>
+                            Helping difficult tasks
+                    </h4>
+                    <p>
+                        Some robotic systems are in progress to perform services like difficult surgeries, rescue during disaster, fire-fighting, pipe inspection, bomb disposal, exploration of dangerous/unknown environment.
+                    </p>
+                </div>
+            </section>
+            <div id ="leftseparator">
+                <h5 id ="aibias">
+                    Forms of bias: how unintentional bias happens
+                </h5>
+                <p>
+                    Algorithmic bias, as defined by Wikipedia occurs when a computer system reflects the implicit values of the humans who are involved in coding, collecting, selecting, or using data to train the algorithm.  
+                    <br>
+                    Bias can enter into Artificial Intelligence as a result of pre-existing cultural, social, or institutional expectations; because of technical limitations of their design; or by being used in unanticipated contexts or by audiences who are not considered in the software's initial design.
+                    <br>
+                    And thus, the fundamental software principle of ‘garbage in, garbage out’ is born. Today, however, artificial intelligence (AI) has raised the stakes on the old conundrum, as the ‘garbage out’ from AI leads to appalling examples of bias.
+                    <br>
+                    For example, if you want to use AI to make recommendations on who best to hire, feed the algorithm data about successful candidates in the past, and it will compare those to current candidates and spit out its recommendations.
+                    <br>
+                    Just one problem. If the input data are biased – say, consisting of mostly young white males, then who will the AI recommend? You guessed it: mostly young white males.
+                    <br>
+                    Whether the AI algorithms are themselves biased is also an open question. “[Machine-learning algorithms] haven’t been optimized for any definition of fairness,” says Deirdre Mulligan, associate professor, UC Berkeley School of Information. “They have been optimized to do a task.”
+                    <br>
+                    Basically, if the data that the machine is fed contains unconscious bias, then the outcome of the machine learning will also contain that bias.
+                    <br>
+                    “It’s not that the programmer sits down and does this on purpose, it’s something that he or she just doesn’t know and that way, the algorithms of these outcomes become flawed.”
+                </p>
+            </div>
+            <img id="icon" height="200px" src="https://www.iconspng.com/uploads/artificial-intelligence/artificial-intelligence.png" alt="Artificial Intelligence PNG icon" />
+            <h5 id="aidevelopers">
+                Ways developers are working to overcome bias in artificial intelligence
+            </h5>
+            <p>
+                It was previously thought that the purity of math would be the quick solution to easily overcoming bias. After all, a computer’s responses are just a physical process, and therefore should be unable unable to display bias. While the previous assumption was that AI would provide neutral data as a machine is incapable of developing a personal position on morality or ethical platforms, developers soon experienced the flaws in machine learning, and the pitfalls of algorithmic bias. Developers began searching for solutions to these various forms of bias, resulting in a series of changes, with some answers being simple, and others more complex.
+            </p>
+            <div id ="devInBias">
+                <h5>
+                    Ways Developers are fighting Intentional Bias:
+                </h5>
+                <ul>
+                    <li>
+                        Auditing/Reviewing
+                    </li>
+                    <li>
+                        User Input Control- Policing and Monitoring Software
+                    </li>
+                    <li>
+                        Training AI’s with a solid base of well collected data
+                    </li>
+                    <li>
+                        Compensating for cultural bias
+                    </li>
+                </ul>
+            </div> 
+            <div id ="devUnBias">
+                <h5>
+                    Ways Developers are fighting Unintentional Bias:
+                </h5>
+                <ul>
+                    <li>
+                        Experience- Give us a break, we’re learning!
+                    </li>
+                    <li>
+                        Diversity- The New Face Of Development
+                    </li>
+                    <li>
+                        Improving testing systems
+                    </li>
+                    <li>
+                        Collecting better data
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </body>
+</html>
